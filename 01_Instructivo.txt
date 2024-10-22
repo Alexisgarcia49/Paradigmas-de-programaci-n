@@ -1,0 +1,351 @@
+#=========================================
+# Curso de Paradigmas de Programación
+# Semestre 2025-1
+# Alexis García
+#=========================================
+
+#=========================================
+# Uso de la terminal (UNIX)
+#========================================
+
+ls            -> (list) Listado de archivos en el directorio.
+cd xxx        -> (change directory) Te lleva a home.
+                     xxx = null Te lleva a home
+                     xxx = ..  Te lleva al directorio anterior.
+                     xxx = ../..  Te regresa dos directorios anteriores.
+mkdir x       -> (make directory) Crear la carpeta x.
+clear         -> Limpia la terminal.
+pwd           -> (present working directory) Ruta en la que te encuetras.
+cp x y        -> (copy) Copiar archivo x al y.
+mv x y        -> (move) Copiar y borrar archivo x al y.
+rm xxx        -> (remove) Borrar un archivo.
+                     xxx = * Borra todo el directorio.
+                     xxx = .py Borra todos los archivos que terminan en .py.
+                     xxx = data* Borra todo lo que empieza en data.
+rm -r xxx     -> Borrar un directorio completo.
+rmdir         -> Borrar un directorio vacío.
+ps -ef        -> Lista de procesos en la máquina.
+kill -9 xxx   -> (matar) Matar proceso.
+man xxx       -> Manual de la instrucción xxx.
+
+#=====================================
+# Instalar aplicaciones
+#=====================================
+
+sudo apt-get update         -> Actualice la lista de prgramas a renovar.
+sudo apt-get upgrade        -> Baja los programas necesarios a actualizar.
+sudo apt-get install xxx    -> Instalar aplicación xxx.
+
+
+#=======================================
+# Instrucciones de vi.
+# Requiere de un comando para actuar
+#=======================================
+
+R                  -> (replace) Escribir y reemplazar.
+i                  -> (insert) Escribir desplazando.
+a                  -> Inserta texto a la derecha del cursor.
+A                  -> Inserta texto al final de la línea.
+I                  -> Inserta texto al inicio de la línea.
+ESC                -> Regresa al modo comando.
+o                  -> Abrir renglón abajo.
+O                  -> Abrir renglón arriba.
+dd                 -> Borrar renglón.
+D                  -> Borrar lo que hay a partir de este punto hacia adelante.
+X                  -> Borra lo que hay bajo el cursor.
+/xxx               -> Buscar xxx.
+                          si hay varios n -> siguiente
+                                        N -> anterior.
+:x                 -> Me manda a la línea x ( x un número).
+                          x=$ la última línea.
+10(instrucción)    -> Repite la instrucción 10 veces.
+dw                 -> Borra la palabra actual.
+:w                 -> (write) Graba el archivo.
+:wq                -> Graba y sale del archivo.
+:q!                -> Se sale y no graba. 
+
+#================================
+# Instrucciones de git.
+#===============================
+
+git init
+git config --global user.name "Alexis García"
+git config --global user.email "youremail@gmail.com"
+git clone https://...
+git add
+git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
