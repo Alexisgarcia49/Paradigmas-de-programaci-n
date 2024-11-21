@@ -68,11 +68,12 @@ dw                 -> Borra la palabra actual.
 # Instrucciones de git.
 #===============================
 
+git clone https://...
 git init
 git config --global user.name "Alexis García"
 git config --global user.email "youremail@gmail.com"
-git clone https://...
-git add
+git add .
+git commit -m "mensaje"
 git push
 
 
