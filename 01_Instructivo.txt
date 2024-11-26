@@ -70,7 +70,7 @@ dw                 -> Borra la palabra actual.
 
 git clone https://...
 git init
-git config --global user.name "Alexis García"
+git config --global user.name "Alexisgarcia49"
 git config --global user.email "youremail@gmail.com"
 git add .
 git commit -m "mensaje"
