@@ -29,6 +29,7 @@ L = np.array([1.0,1.0], dtype=np.float64)
 # Constante de difusión
 kd:float64 = 0.2
 # Pasos de tiempo
+pasos = 10000
 #-------------------------------------------
 
 #=============
